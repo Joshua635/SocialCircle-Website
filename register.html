@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialCircle Register page</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        body{
+            background-image: url('./images/—Pngtree—simple\ blue\ white\ background_1911292.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+
+        }
+        .register form{
+            position: relative;
+            padding: 50px;
+            /* background: rgba(255, 255, 255, 0.25); */
+            backdrop-filter: blur(15px);
+            /* border: 1px solid black; */
+            border-bottom: 1px solid regba(255, 255, 255. 0.5);
+            border-right: 1px solid rgba(255, 255, 255, 0.5);
+            border-radius: 20px;
+            width: 500px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
+            margin-left: 500px;
+            margin-top: 40px;
+           
+
+        }
+        .register input{
+            padding: 10px;
+        }
+        .register form h2{
+            position: relative;
+            width: 100%;
+            text-align: center;
+            font-size: 20px;
+            font-weight: 600;
+            color: #8f2c24;
+            margin-bottom: 10px;
+            justify-content: center;
+            justify-items: center;
+        }
+        button{
+            transition: background-color 0.3s;
+            cursor: pointer;
+            font-size: 16px;
+            
+
+        }
+        button:hover{
+            background-color: blue;
+            color: black;
+        }
+        .footer{
+            background-image: url('./images/Social\ Media\ Collab.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding: 50px;
+            margin-top: 40px;
+
+        }
+
+        @media screen and (max-width:600px) {
+            .register form{
+        position: relative;
+        padding: 30px;
+        /* background: rgba(255, 255, 255, 0.25); */
+        backdrop-filter: blur(15px);
+        /* border: 1px solid black; */
+        border-bottom: 1px solid regba(255, 255, 255. 0.5);
+        border-right: 1px solid rgba(255, 255, 255, 0.5);
+        border-radius: 20px;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
+        margin-left: 100px;
+       
+        
+       
+
+    }
+    .register form h2{
+        position: relative;
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+        color: #8f2c24;
+       
+        justify-content: center;
+        justify-items: center;
+        
+    }
+    .footer{
+            background-image: url('./images/Social\ Media\ Collab.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding: 42px;
+            margin-top: 30px;
+        }
+        .header > .section{
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+button{
+            background-color: blue;
+            transition: background-color 0.3s;
+            cursor: pointer;
+            font-size: 16px;
+            
+
+        }
+        button:hover{
+            background-color: blue;
+            color: black;
+        }
+    
+
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="section">
+        <h1>WELCOME &nbsp; TO &nbsp; SOCIALCIRCLE</h1>
+        </div>
+    </div>
+    <div class="nav">
+        <ul>
+            <li><a href="index.html">HOME &nbsp; </a></li>
+            <li><a href="login.html">LOGIN &nbsp; </a></li>
+            <li><a href="register.html">REGISTER &nbsp; </a></li>
+            <li><a href="">LET'S CHAT</a></li>
+            <li><a href="socialcircle.html">SOCIALCIRCLE &nbsp; </a></li>
+        </ul>
+    </div>
+    <div class="register">
+        <form action="page1.html">
+        <h2>REGISTER</h2>
+        <input type="email" placeholder="Enter G-mail">
+        <br>
+        <input type="username" placeholder="Username">
+        <br>
+        <input type="password" placeholder="Create Password">
+        <br>
+        <input type="password" placeholder="Confirm Password">
+        <br>
+        <input type="number" placeholder="Age">
+        <br>
+        <label>Location</label>
+        <select>
+            <option>CHENNAI</option>
+            <option>MADURAI</option>
+            <option>COIMBATORE</option>
+            <option>TIRUNELVELI</option>
+            <option>SALEM</option>
+            <option>THIRUCHIRAPPALI</option>
+            <option>THOOTHUKUDI</option>
+            <option>THANJAVUR</option>
+            <option>VELLORE</option>
+            <option>TIRUPPUR</option>
+            <option>ERODE</option>
+            <option>DINDIGUL</option>
+            <option>CUDDALORE</option>
+            <option>KANCHIPURAM</option>
+            <option>NAGAPATTINAM</option>
+            <option>RAJAPALAYAM</option>
+            <option>PUDUKUKOTTAI</option>
+            <option>KUMBAKONAM</option>
+            <option>NAGERCOIL</option>
+            <option>KARAIKUDI</option>
+            <option>AMBUR</option>
+            <option>HOSUR</option>
+            <option>SIVAGANGA</option>
+            <option>NEYVELI</option>
+            <option>CHENGALPATTU</option>
+            <option>KARUR</option>
+            <option>RANIPET</option>
+            <option>KOVILPATTI</option>
+            <option>ALANDUR</option>
+            <option>THARANGAMBADI</option>
+            <option>KANNIYAKUMARI</option>
+            <option>KURICHI</option>
+            <option>DEVAKOTTAI</option>
+        </select>
+        <br>
+        <input type="submit"  placeholder="button">
+        </form>
+
+    </div>
+    <div class="footer">
+
+    </div>
+    
+</body>
+</html>
